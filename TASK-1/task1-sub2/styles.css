@@ -1,0 +1,18 @@
+table,td,thead,th{
+    border: 1px solid red;
+}
+body{
+    margin: 100px;
+    background-color: aqua;
+}
+
+thead{
+    color: blue;
+}
+
+td{
+    padding: 10px 20px 10px 10px;
+}
+table{
+    background-color: white;
+}

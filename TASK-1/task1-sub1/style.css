@@ -1,0 +1,27 @@
+.topfirst{
+    background-color: aqua;
+    text-align: center;
+    border-radius: 4px;
+    width: 470px;
+}
+
+section{
+    align-content: center;
+}
+
+body{
+    background-color:rgb(185, 138, 36);
+    border-radius: 10px;
+    margin-left: 480px;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+form{
+    background-color: rgb(115, 117, 202);
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 450px;
+    height: 825px;
+}
