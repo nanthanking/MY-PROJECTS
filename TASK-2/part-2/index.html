@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>WEB ACCESSIBILITY</h1>
+    <section>
+        <div>
+            <h3>Interactive Elements:</h3>
+            <form action="#">
+                <label for="Firstname">First Name:</label>
+                <br/>
+                <input id="Firstname" type="text" tabindex="1" value="john" title="this is your first name" readonly/>
+                <br/>
+                <br/>
+                <label for="Lastname">Last Name:</label>
+                <br/>
+                <input id="Lastname" type="text" tabindex="2" required/>
+                <br/>
+                <br/>
+                <label for="Lastname">Gender type:</label>
+                <br/>
+                <input id="male" value="male" type="radio" name="gender" tabindex="3"/>
+                <label for="male">Male</label>
+                <input id="female" value="female" type="radio" name="gender" tabindex="4"/>
+                <label for="female">Female</label>
+                <br/>
+                <br/>
+                <button type="reset" tabindex="5" title="this is reset butten">reset</button>
+                <button type="submit" tabindex="6">submit</button>
+            </form>
+        </div>
+        <div>
+            <form action="#">
+                <h3>Non-Interactive Elements:</h3>
+                <label for="Firstname">First Name:</label>
+                <br/>
+                <div class="input_design" tabindex="7"></div>
+                <br/>
+                <label for="Lastname">Last Name:</label>
+                <br/>
+                <div class="input_design" tabindex="8"></div>
+                <br/>
+                <br/>
+                <label for="Lastname">Gender type:</label>
+                <br/>
+                <div class="round_button" tabindex="9"></div>
+                <label for="male">Male</label>
+                <div class="round_button" tabindex="10"></div>
+                <label for="female">Female</label>
+                <br/>
+                <br/>
+                <div class="button_model" tabindex="11">reset</div>
+                <div class="button_model" tabindex="12">reset</div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
