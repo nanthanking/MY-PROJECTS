@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">  <!-- Render other Languages -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Nanthakumar-R" content="TASK-4">
+        <title>TASK-4</title>   <!-- Given page title -->
+        <link rel="stylesheet" href="/styles/style.css">    <!-- Style sheet linked -->
+        <link rel="stylesheet" href="/styles/font.css">     <!-- Fonts style sheet linked -->
+    </head>
+    <body>
+            <!--Body which contains
+                1) Header
+                2) Buttons above main image
+                3) main-image
+                4) main-contents
+                5) footer
+            -->
+        <header> <!-- This is a header division -->
+            <nav>
+                <ul>
+                    <li><img id="main_left_logo" src="/assets/fmblogo.png" alt="main logo"></li>
+                    <li><h3>DASHBOARD</h3></li>
+                    <li><h3>ACCOUNTS</h3></li>
+                    <li><h3>PAYMENTS & TRANSFERS</h3></li>
+                    <li><h3>GENERAL SERVICES</h3></li>
+                    <li><h3>FAVOURITES</h3></li>
+                    <div class="header_second_image">
+                        <img id="profile_icon" src="/assets/profile-icon.png" alt="profile icon">
+                        <div>
+                            <p>Welcome</p>
+                            <h3>Lesedi Britt</h3>
+                        </div>
+                    </div>
+                    <li><button id="logout_button" type="button">LOG OUT</button></li>
+                </ul>
+            </nav>
+            <!-- Below hr tag is used to set green line between header and image-->
+            <hr class="below_header_section_line">
+
+        </header>
+
+        <!-- Buttons above the image-->
+        <section class="Buttons-above-the-image">
+
+            <!--(1)-->
+            <div class="my-profile">
+                <h3>MY PROFILE </h3>
+                <img class="down-arrow" src="/assets/rectangle-10.png" alt="down-arrow-image">
+            </div>
+            <!--(2)-->
+            <div class="my-profile">
+                <h3>CONTACT US </h3>
+                <img class="down-arrow" src="/assets/rectangle-10.png" alt="down-arrow-image">
+            </div>
+            <!--(3)-->
+            <div class="aA_division">
+                <img id="aA-image" src="/assets/rectangle-19.png" alt="aA symbol image">
+            </div>
+
+        </section>
+
+        <!-- Below image is an full width image below the header section -->
+        <img class="full_width_image" src="/assets/banner-head-oldest.png" alt="middle_image">
+
+        <!-- Main Contents starts from here -->
+        <main>
+
+            <!-- Dashboard headline section -->
+            <section class="Dashboard_headline">
+                <h3><span class="Dashboard_inside_name">DASHBOARD:</span>DashBoard /<span class="Dashboard_inside_name">Widget Library</span></h3>
+            </section>
+
+            <!-- Widget-library-section is given below -->
+            <section class="widget_library_section">
+
+                <!--(1)-->
+                <img id="left_arrow_image" src="/assets/left_arrow_image.png" alt="left_arrow_image"/>
+
+                <!--(2)-->
+                <div class="wordings">
+                    <h3><span class="widget_library_name">Widget Library</span></h3>
+                    <p>Select the widgets you want to view on your dashboard</p>
+                </div>
+
+                <!--(3)-->
+                <div class="filter_division">
+                    <h3>Widget Filter</h3>
+                    <img id="filter_image" src="/assets/filter.png" alt="filter_image">
+                </div>
+
+            </section>
+
+            <!-- All Eight boxes of Parent container starts from here -->
+            <section class="second_section">
+
+                <!--(First box)-->
+                <div class="boxes">
+                    <img src="/assets/accountsummary.png" alt="">
+                    <h3>Account Summary</h3>
+                    <br>
+                    <p>Shows a summary of all your accounts such as current a/c, savings a/c, loan a/c, deposit a/c etc.</p>
+                </div>
+
+                <!--(Second box)-->
+                <div class="boxes" id="Second_bordered_box">
+                    <img src="/assets/branchsummary.png" alt="">
+                    <h3>Branch Wise Summary</h3>
+                    <br>
+                    <p>A Summary of your accounts categorized based on branches you hold accounts with.</p>
+                </div>
+
+                <!--(Third box)-->
+                <div class="boxes">
+                    <img src="/assets/calendar.png" alt="">
+                    <h3>Calendar</h3>
+                    <br>
+                    <p>A list of upcoming events scheduled in your calendar</p>
+                </div>
+
+                <!--(Fourth box)-->
+                <div class="boxes">
+                    <img src="/assets/composeemail.png" alt="">
+                    <h3>Compose Mail</h3>
+                    <br>
+                    <p>A shortcut widget that lets you communicate with the bank via e-mail.</p>
+                </div>
+
+                <!--(Fifth box)-->
+                <div class="boxes">
+                    <img src="/assets/consolidatedsumary.png" alt="">
+                    <h3>Consolidated Summary</h3>
+                    <br>
+                    <p>A summary of all your linked accounts classified into various currencies.</p>
+                </div>
+
+                <!--(Sixth box)-->
+                <div class="boxes">
+                    <img src="/assets/c&saccount.png" alt="">
+                    <h3>Current & Savings Account</h3>
+                    <br>
+                    <p>A summary of your operative accounts.</p>
+                </div>
+
+                <!--(Seventh box)-->
+                <div class="boxes">
+                    <img src="/assets/crsummary.png" alt="">
+                    <h3>Customer Relationship Summary</h3>
+                    <br>
+                    <p>A summary of all accounts linked to you.</p>
+                </div>
+
+                <!--(Eighth box)-->
+                <div class="boxes">
+                    <img src="/assets/sentmail.png" alt="">
+                    <h3>Sent Mail</h3>
+                    <br>
+                    <p>Shows all your sent mails.</p>
+                </div>
+
+                <!-- All Eight boxes of Parent container Ends here -->
+            </section>
+
+            <!-- Next Page line container-->
+            <section>
+                <div class="next_page">
+                    <p>1 of 2 pages</p>
+                    <img  id="right_arrow_image" src="/assets/right_arrow_image.png" alt="right_arrow_image">
+                </div>
+            </section>
+
+            <!-- Horizontal line below next page container -->
+            <hr class="final_line">
+
+            <!-- Final three buttons container starts here-->
+            <section class="final_buttons">
+                <button class="white_button" type="button">Back</button>
+                <button id="add_button" class="green_button" type="button">Add</button>
+                <button class="green_button" type="button">Remove</button>
+            </section>
+
+        </main>
+
+        <!-- Footer Starts from here-->
+        <footer>
+            <ul>
+                <li><p>site Map</p></li>
+                <li><p>|</p></li>
+                <li><p>Policy</p></li>
+                <li><p>|</p></li>
+                <li><p>Terms & Conditions</p></li>
+                <li><p>|</p></li>
+                <li><p>Disclaimer</p></li>
+            </ul>
+            <p>Cut off time EFT - 2 PM, RTGS - 1:30 Finnacle eBanking, All Rights Reserved</p>
+
+        </footer>
+        
+    </body>
+</html>

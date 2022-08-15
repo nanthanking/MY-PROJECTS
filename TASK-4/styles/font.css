@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+h3{
+    font-size:95%;
+    color: #404040;
+    font-weight: 600;
+}
+p{
+    font-size: 90%;
+    font-weight: 500;
+    color: #5b5b5b;
+}
+h5{
+    color: #5e5b5b;
+}
+.welcome_word{
+    font-weight: 95%;
+}
+footer>ul>li>p{
+    font-size: large;
+    color: #404040;
+}
+footer>p{
+    font-size: medium;
+    color:#9c9999;
+    font-weight: 500;
+}
