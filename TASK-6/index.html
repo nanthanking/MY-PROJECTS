@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK-6</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <section class="wrapper">
+        <form  action="#" method="post" id="myForm">
+            <div class="banner">
+                <h1>Registration Form</h1>
+            </div>
+            <br/>
+            <fieldset>
+                <legend>Student Information</legend>
+                <!------------First name------------>
+                <div class="item">
+                    <label for="fname">First Name<span>*</span></label>
+                    <input type="text" id="fname" name="fname" title="Enter your first name" placeholder="Enter your First name" autofocus />
+                    <small>Error message</small>
+                </div>
+                <!------------Last name------------>
+                <div class="item">
+                    <label for="lname">Last Name<span>*</span></label>
+                    <input type="text" id="lastname" name="lastname" title="Enter your last name" placeholder="Enter your Last name"/>
+                    <small>Error message</small>
+                </div>
+                <!------------Address------------>
+                <div class="item">
+                    <label for="address">Address<span>*</span></label>
+                    <textarea name="address" id="address" cols="73" rows="1" title="Enter your address" maxlength="200" placeholder="Enter your address"></textarea>
+                    <small>Error message</small>
+                </div>
+                <!------------Pin code------------>
+                <div class="item">
+                    <label for="pin_code">Zip code<span>*</span></label>
+                    <input type="text" id="pin_code" name="pin_code" maxlength="6" pattern="\d*" title="Enter your pin code" placeholder="Enter your pin code" />
+                    <small>Error message</small>
+                </div>
+                <!------------Country------------>
+                <div class="item">
+                    <label for="country" title="Please select your country">Country<span>*</span></label>
+                    <select name="country" id="country" >
+                        <option value="" disabled selected>Please Select...</option>
+                        <option value="India">India</option>
+                        <option value="United Arab Emirates">United Arab Emirates</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="United States">United States</option>
+                        <option value="Uzbekistan">Uzbekistan</option>
+                        <option value="Viet Nam">Viet Nam</option>
+                        <option value="Wallis and Futuna">Wallis and Futuna</option>
+                        <option value="Yemen">Yemen</option>
+                        <option value="Zimbabwe">Zimbabwe</option>
+                    </select>
+                    <small>Error message</small>
+                </div>
+                <!------------Gender------------>
+                <div class="rows item">
+                    <label title="Please select your gender category" id="gender">Gender<span>*</span></label>
+                    <input type="radio" id="Male" name="gender" value="Male"/>
+                    <label for="Male">Male</label>
+                    <input type="radio" id="Female" name="gender" value="Female"/>
+                    <label for="Female">Female</label>
+                    <small>Error message</small>
+                </div>
+                <!------------Preferances------------>
+                <div class="rows item">
+                    <label title="Select your favourite colours">Preferances<span>*</span></label>
+                    <input type="checkbox" id="red" name="color"/>
+                    <label for="red">Red</label>
+                    <input type="checkbox" id="green" name="color"/>
+                    <label for="green">Green</label>
+                    <input type="checkbox" id="blue" name="color"/>
+                    <label for="blue">Blue</label>
+                    <small>Error message</small>
+                </div>
+                <!------------Phone Number------------>
+                <div class="item">
+                    <label for="phone_number">Phone<span>*</span></label>
+                    <input type="text" id="phone_number" name="phone_number" maxlength="10" pattern="\d*" title="Enter your mobile number" placeholder="Enter your mobile number"/>
+                    <small>Error message</small>
+                </div>
+                <!------------Email address------------>
+                <div class="item">
+                    <label for="mail_id">Email<span>*</span></label>
+                    <input type="email" id="mail_id" name="mail_id" maxlength="30" title="Enter your E-mail id" placeholder="Enter your E-mail id" />
+                    <small>Error message</small>
+                </div>
+                <!------------Passowrd------------>
+                <div class="item">
+                        <label for="passcode">Password (6-8 characters)<span>*</span></label>
+                        <input type="password" id="firstPasscode" name="pwd" minlength="6" maxlength="8" title="Please Enter your password" placeholder="Please Enter your password"/>
+                        <i class="far fa-eye" id="togglePassword"></i>
+                        <small>Error message</small>
+                </div>
+                <!------------Confirm Password------------>
+                <div class="item">
+                        <label for="passcode">Verify password<span>*</span></label>
+                        <input type="password" id="confirmPasscode" name="pwd" minlength="6" maxlength="8" title="Please Enter your confirmation password" placeholder="Please Enter your confirmation password"/>
+                        <i class="far fa-eye" id="togglePassword-second"></i>
+                        <small>Error message</small>
+                </div>
+                <!------------Reset button------------>
+                <button type="reset">Reset</button>
+                <!------------Submit button------------>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </section>
+    <script src="./script.js" defer></script>
+</body>
+</html>

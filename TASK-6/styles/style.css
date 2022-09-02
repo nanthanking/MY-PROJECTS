@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 720px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+body{
+    background: linear-gradient(to right,#39E5B6,#70B2D9);
+    background: linear-gradient(to right,#175eaf,#0c161562);
+}
+body, div, form, input, select, textarea, label, p { 
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    color: black;
+    line-height: 22px;
+}
+.banner{
+    position: relative;
+    height: 300px;
+    background-image: url(/assets/images/form-background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    color: #fff;
+}
+input, select,textarea {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.item input:hover, .item select:hover, .item textarea:hover{
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px 0 #647DEE;
+}
+.rows>input:hover{
+    border: 1px solid #647DEE;
+}
+input{
+    padding: 5px;
+    width: calc(100% - 10px);
+}
+.rows>input{
+    width: auto;
+}
+.item span{
+    color: red;
+}
+textarea{
+    padding: 5px;
+    width: calc(100%-12px);
+}
+
+form{
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 20px grey;
+}
+fieldset{
+    padding: 20px;
+}
+.item{
+    position: relative;
+    margin: 10px auto;
+}
+button{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #70B2D9;
+    color: #fff;
+    font-size: 16px;
+    cursor:pointer;
+    margin-right: 20px;
+}
+button:hover{
+    background-color: #39E5B6;
+}
+small{
+    visibility: hidden;
+}
+.item.success input, .item.success textarea{
+    border-color: #2ecc71;
+}
+.item.error input{
+    border-color: #e74c3c;
+}
+.item.error small{
+    visibility: visible;
+    color: #e74c3c;
+}
+.item.success small{
+    color: #2ecc71;
+}
+i{
+    position: absolute;
+    left: 550px;
+    top: 32px;
+}
